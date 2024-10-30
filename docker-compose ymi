@@ -78,13 +78,3 @@ jaringan:
     ipam:
       konfigurasi:
         - jaringan: 172.20.0.0/16
-
-
-
-Panel Jalanin:
- 
-docker-compose naik -d
- 
-Bikin user buat panelnya :
- 
-docker-compose jalankan --rm panel php artisan p:pengguna:buat
